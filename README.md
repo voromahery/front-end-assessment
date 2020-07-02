@@ -1,6 +1,6 @@
 # Front-end assessment
 
-A mockup-to-website example to be used as an assessment of our student's capabilities
+A mockup-to-website example to be used as an assessment
 
 ## Getting started
 
@@ -18,9 +18,19 @@ You can [find the mockup on Figma](https://www.figma.com/file/SC3HqLUP9hGBfn93mI
 
 ### As a `.fig` file
 
-You can [find the `.fig` file in the source folder of this repo](source/sports-app.fig).
+You can [find the `.fig` file in the source folder of this repo](source-materials/sports-app.fig).
 
 Open the `.fig` in the Figma App, or import it/drag it into the Figma.com workspace in your browser.
+
+## Resources
+
+I've extracted all the images in multiple formats, and placed them in the `source-material/imagery` folder.
+
+So too with downloading the fonts. Have a look in the `source-material/fonts` folder.
+
+## Development
+
+The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
 
 ## Marking
 
@@ -49,12 +59,12 @@ Your work will be marked on the following criteria:
   - Responsive, supporting mobile and desktop devices
   - Be accessible (You should use accessibility techniques we've covered in our courses)
   - Accurate as possible (Your end product should look as similar to the designs as possible
-    
+
 ### Bonus marks
 
 Bonus points will be awarded for code that uses:
 
 - a new technique you had to research while doing this assessment
 - elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality)
+- going the extra mile (putting in more effort to push for high quality or delight)
 
