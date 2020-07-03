@@ -32,9 +32,14 @@ So too with downloading the fonts. Have a look in the `source-material/fonts` fo
 
 The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
 
-## Marking
+## Requirements
 
-### Requirements
+Your work on the site header, and masthead will be the primary focus of this assessment.
+i.e. you must first deliver these two elements, so that they can be marked.
+
+The rest of the components of the site, we'll do later as an exercise.
+
+### Marking
 
 Your work will be marked on the following criteria:
 
