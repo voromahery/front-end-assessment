@@ -10,3 +10,27 @@
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
 }
+
+@media (min-width: 365px) {
+
+  .masthead__link--homepage-logo {
+    width: 92px;
+    height: 32px;
+  }
+
+  .google-play_logo,
+  .app-store_logo {
+    width:145.69px;
+    height: 44px;
+  }
+
+  .google-play_logo {
+    padding-inline-start: 1rem;
+    padding-inline-end: 0;
+  }
+
+  .app-store_logo {
+    padding-inline-start: 0;
+    padding-inline-end: 1rem;
+  }
+}
