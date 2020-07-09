@@ -1,45 +1,7 @@
-.masthead__title {
-  /* background-image: url("../img/logo_sports_colour.svg");
-  text-indent: -9999px;
-  background-repeat: no-repeat; */
-}
-
-/* .link_app-store {
-  background-image: url("../img/apple_store.svg");
-}
-
-.link_google-play {
-  background-image: url("../img/google_play.svg");
-} */
-
-/* .link_app-store,
-.link_google-play {
-  background-repeat: no-repeat;
-  text-indent: -9999px;
-} */
-
-/* .masthead__list {
-  display: flex;
-  justify-content: space-between;
-} */
-
 .masthead {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.masthead__link--homepage-logo {
-  width: 186px;
-  height: 70px;
-}
-
-.google-play_logo,
-.app-store_logo {
-  width:145.69px;
-  height: 44px;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
 }
 
 .masthead__header {
