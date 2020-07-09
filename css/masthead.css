@@ -21,3 +21,31 @@
   list-style: none;
   display: flex;
 }
+
+@media (min-width: 365px) {
+
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .masthead__header {
+    font-size: 36px;
+    color: #333333;
+    text-align: start;
+  }
+
+  .masthead__paragraph {
+    font-size: 18px;
+    color: #4F4F4F;
+    font-weight: 400;
+    text-align: start;
+  }
+
+  .masthead__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+}
