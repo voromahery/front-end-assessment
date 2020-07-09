@@ -28,12 +28,18 @@
   height: 70px;
 }
 
+.masthead__header {
+  font-size: 30px;
+  color: #333333;
+}
+
 .masthead__paragraph {
   color: #4F4F4F;
+  font-weight: 400;
 }
 
 .masthead__list {
+  padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between;
 }
