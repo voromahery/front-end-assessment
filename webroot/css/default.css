@@ -3,7 +3,7 @@
   src: url("../fonts/Lato-Black.woff2");
 }
 
-.masthead {
+body {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   background-color: #F4F6F9;
 }
