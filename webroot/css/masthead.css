@@ -3,3 +3,37 @@
   text-indent: -9999px;
   background-repeat: no-repeat; */
 }
+
+/* .link_app-store {
+  background-image: url("../img/apple_store.svg");
+}
+
+.link_google-play {
+  background-image: url("../img/google_play.svg");
+} */
+
+/* .link_app-store,
+.link_google-play {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+} */
+
+/* .masthead__list {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.masthead__link--homepage-logo {
+  width: 186px;
+  height: 70px;
+}
+
+.masthead__paragraph {
+  color: #4F4F4F;
+}
+
+.masthead__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
