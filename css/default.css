@@ -7,5 +7,8 @@
 body {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   background-color: #F4F6F9;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
   margin: auto;
 }
