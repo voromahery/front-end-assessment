@@ -34,6 +34,12 @@
   height: 70px;
 }
 
+.google-play_logo,
+.app-store_logo {
+  width:145.69px;
+  height: 44px;
+}
+
 .masthead__header {
   font-size: 30px;
   color: #333333;
