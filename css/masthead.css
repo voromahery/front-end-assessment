@@ -23,6 +23,12 @@
   justify-content: space-between;
 } */
 
+.masthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .masthead__link--homepage-logo {
   width: 186px;
   height: 70px;
@@ -31,11 +37,13 @@
 .masthead__header {
   font-size: 30px;
   color: #333333;
+  text-align: center;
 }
 
 .masthead__paragraph {
   color: #4F4F4F;
   font-weight: 400;
+  text-align: center;
 }
 
 .masthead__list {
