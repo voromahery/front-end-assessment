@@ -1,0 +1,12 @@
+.masthead__link--homepage-logo {
+  width: 186px;
+  height: 70px;
+}
+
+.google-play_logo,
+.app-store_logo {
+  width:145.69px;
+  height: 44px;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
