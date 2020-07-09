@@ -12,3 +12,12 @@ body {
   padding-block-start: 1rem;
   margin: auto;
 }
+
+@media (min-width: 365px) {
+
+body {
+  padding-inline-start: 5rem;
+  padding-block-start: 2rem;
+}
+
+}
