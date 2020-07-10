@@ -4,23 +4,23 @@
   align-items: center;
 }
 
-img {
+img[alt="phones"] {
   display: none;
 }
 
-.masthead__header {
+.masthead__section--header {
   font-size: 30px;
   color: #333333;
   text-align: center;
 }
 
-.masthead__paragraph {
+.masthead__section--paragraph {
   color: #4F4F4F;
   font-weight: 400;
   text-align: center;
 }
 
-.masthead__list {
+.masthead__section--list {
   padding: 0;
   list-style: none;
   display: flex;
@@ -32,35 +32,45 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-inline-start: 2rem;
+    padding-block-start: 4rem;
+    padding-block-end: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
   }
 
-img[alt="phones"] {
+ img[alt="phones"] {
   display: block;
-  grid-column: 2;
-  position: absolute;
-  top: -70%;
 }
 
 .masthead__image {
-position: relative;
+  position: relative;
+  grid-column: 2;
+  position: absolute;
+    top: -35%;
 }
 
-  .masthead__header {
+  .masthead__section--header {
     font-size: 36px;
     color: #333333;
     text-align: start;
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
   }
 
-  .masthead__paragraph {
+  .masthead__section--paragraph {
     font-size: 18px;
     color: #4F4F4F;
     font-weight: 400;
     text-align: start;
   }
 
-  .masthead__list {
+  .masthead__section--list {
     padding: 0;
     list-style: none;
     display: flex;
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
   }
 }
