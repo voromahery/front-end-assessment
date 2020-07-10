@@ -1,4 +1,4 @@
-.masthead__link--homepage-logo {
+.masthead__section--link-homepage_logo {
   width: 186px;
   height: 70px;
 }
@@ -13,7 +13,7 @@
 
 @media (min-width: 365px) {
 
-  .masthead__link--homepage-logo {
+  .masthead__section--link-homepage_logo {
     width: 92px;
     height: 32px;
   }
