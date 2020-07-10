@@ -33,9 +33,18 @@ img {
     flex-direction: column;
     align-items: flex-start;
   }
-img {
+
+img[alt="phones"] {
   display: block;
+  grid-column: 2;
+  position: absolute;
+  top: -70%;
 }
+
+.masthead__image {
+position: relative;
+}
+
   .masthead__header {
     font-size: 36px;
     color: #333333;
