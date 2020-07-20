@@ -29,14 +29,6 @@
     text-align: center;
   }
 
-  .item-list_app-store {
-    padding-inline-end:calc(var(--padding-inline) / 2);
-  }
-
-  .item-list_google-play {
-    padding-inline-start: calc(var(--padding-inline) / 2);
-  }
-
   .masthead__section--list {
     padding: 0;
     display: flex;
@@ -63,13 +55,13 @@
   }
 
   img[alt="phones"] {
-  display: block;
+    display: block;
 }
 
   .masthead__image {
-  position: relative;
-  grid-column: 2;
-  position: absolute;
+    position: relative;
+    grid-column: 2;
+    position: absolute;
     top: -35%;
 }
 
@@ -88,7 +80,6 @@
 
   .masthead__section--list {
     padding: 0;
-    list-style: none;
     display: flex;
   }
 
