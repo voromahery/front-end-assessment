@@ -7,8 +7,8 @@
 .app-store_logo {
   width:145.69px;
   height: 44px;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-inline-start: calc(var(--padding-inline) / 2);
+  padding-inline-end: calc(var(--padding-inline) / 2);
 }
 
 @media (min-width: 365px) {
@@ -25,12 +25,12 @@
   }
 
   .google-play_logo {
-    padding-inline-start: 1rem;
+    padding-inline-start: calc(var(--padding-inline) / 2);
     padding-inline-end: 0;
   }
 
   .app-store_logo {
     padding-inline-start: 0;
-    padding-inline-end: 1rem;
+    padding-inline-end: calc(var(--padding-inline));
   }
 }
