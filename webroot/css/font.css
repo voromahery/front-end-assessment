@@ -3,6 +3,7 @@
   src: local("Lato");
   src: url("../fonts/lato-regular.woff2");
   src: url("../fonts/lato-regular.woff");
+  font-weight: 400;
 }
 
 @font-face {
