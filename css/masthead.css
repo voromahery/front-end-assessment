@@ -1,44 +1,51 @@
-.masthead {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 100%;
-}
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
 
-.masthead__section {
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
-  margin: auto;
-}
+  .masthead__section {
+    padding-inline-start:var(--padding-inline);
+    padding-inline-end:var(--padding-inline);
+    padding-block-start:var(--padding-block);
+    padding-block-end:var(--padding-block);
+    margin: auto;
+  }
 
-img[alt="phones"] {
-  display: none;
-}
+  img[alt="phones"] {
+    display: none;
+  }
 
-.masthead__section--header {
-  font-size: 30px;
-  color: #333333;
-  text-align: center;
-}
+  .masthead__section--header {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+  }
 
-.masthead__section--paragraph {
-  color: #4F4F4F;
-  font-weight: 400;
-  text-align: center;
-}
+  .masthead__section--paragraph {
+    color: #4F4F4F;
+    font-weight: 400;
+    text-align: center;
+  }
 
-.masthead__section--list {
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
+  .item-list_app-store {
+    padding-inline-end:calc(var(--padding-inline) / 2);
+  }
+
+  .item-list_google-play {
+    padding-inline-start: calc(var(--padding-inline) / 2);
+  }
+
+  .masthead__section--list {
+    padding: 0;
+    display: flex;
+  }
 
 @media (min-width: 365px) {
   .masthead__section {
-    margin-block-start: 4rem;
-    margin-block-end: 4rem;
+    margin-block-start: calc(var(--margin-block) * 2);
+    margin-block-end: calc(var(--margin-block) * 2);
   }
 
   .masthead {
@@ -50,15 +57,16 @@ img[alt="phones"] {
     background-image: url("../img/bg_header.png");
     background-position-x: 100%;
     background-position-y: 85%;
+    background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
   }
 
- img[alt="phones"] {
+  img[alt="phones"] {
   display: block;
 }
 
-.masthead__image {
+  .masthead__image {
   position: relative;
   grid-column: 2;
   position: absolute;
@@ -69,8 +77,6 @@ img[alt="phones"] {
     font-size: 36px;
     color: #333333;
     text-align: start;
-    padding-block-start: 2rem;
-    padding-block-end: 2rem;
   }
 
   .masthead__section--paragraph {
@@ -84,7 +90,12 @@ img[alt="phones"] {
     padding: 0;
     list-style: none;
     display: flex;
-    padding-block-start: 2rem;
-    padding-block-end: 2rem;
+  }
+
+  .masthead__section--list,
+  .masthead__section--header
+   {
+    padding-block-start:var(--padding-block);
+    padding-block-end:var(--padding-block);
   }
 }
