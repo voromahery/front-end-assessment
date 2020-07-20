@@ -10,4 +10,5 @@
   src: local("Lato-Bold"), local("Lato Bold");
   src: url("../fonts/lato-bold.woff2");
   src: url("../fonts/lato-bold.woff");
-}
+  font-weight: 700;
+};
