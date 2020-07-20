@@ -1,19 +1,16 @@
-:root {
-  --padding-inline: 2rem;
-  --padding-block: 2rem;
-  --margin-inline: 2rem;
-  --margin-block: 2rem;
-}
+  :root {
+    --padding-inline: 2rem;
+    --padding-block: 2rem;
+    --margin-inline: 2rem;
+    --margin-block: 2rem;
+  }
 
-body {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
-  background-color: #F4F6F9;
-  margin: auto;
-}
+  body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    background-color: #F4F6F9;
+    margin: auto;
+  }
 
-ul {
-  list-style: none;
-}
-@media (min-width: 365px) {
-
-}
+  ul {
+    list-style: none;
+  }
