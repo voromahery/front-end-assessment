@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
+}
+
+.masthead__section {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  margin: auto;
 }
 
 img[alt="phones"] {
@@ -27,16 +36,21 @@ img[alt="phones"] {
 }
 
 @media (min-width: 365px) {
+  .masthead__section {
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
+  }
 
   .masthead {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-inline-start: 2rem;
-    padding-block-start: 4rem;
-    padding-block-end: 4rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-image: url("../img/bg_header.png");
+    background-position-x: 100%;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
     position: relative;
   }
 
