@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lato';
-  src: local("Lato");
+  src: local("Lato-Regular"), local("Lato Regular");
   src: url("../fonts/lato-regular.woff2");
   src: url("../fonts/lato-regular.woff");
   font-weight: 400;
