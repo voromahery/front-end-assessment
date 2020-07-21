@@ -36,34 +36,22 @@
 
 @media (min-width: 365px) {
   .masthead__section {
+    max-width: 100%;
     margin-block-start: calc(var(--margin-block) * 2);
     margin-block-end: calc(var(--margin-block) * 2);
   }
 
   .masthead {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     background-image: url("../img/bg_header.png");
-    background-position-x: 100%;
-    background-position-y: 85%;
-    background-size: 100%;
+    background-position: right 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     position: relative;
   }
-
-  img[alt="phones"] {
-    display: block;
-}
-
-  .masthead__image {
-    position: relative;
-    grid-column: 2;
-    position: absolute;
-    top: -35%;
-}
 
   .masthead__section--header {
     font-size: 36px;
@@ -89,4 +77,15 @@
     padding-block-start:var(--padding-block);
     padding-block-end:var(--padding-block);
   }
+
+  img[alt="phones"] {
+    display: block;
+}
+
+  .masthead__image {
+    position: relative;
+    grid-column: 2;
+    position: absolute;
+    top: -35%;
+}
 }
