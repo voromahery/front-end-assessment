@@ -47,7 +47,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     background-image: url("../img/bg_header.png");
-    background-position: right 50%;
+    background-position: right 100%;
     background-size: 60%;
     background-repeat: no-repeat;
     position: relative;
