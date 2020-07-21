@@ -19,8 +19,6 @@
 
   @media (min-width: 365px) {
   body {
-      flex-direction: column;
-      align-items: flex-start;
       display: grid;
       grid-template-columns: 60% 40%;
       background-image: url("../img/bg_header.png");
