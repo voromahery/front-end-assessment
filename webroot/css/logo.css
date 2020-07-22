@@ -30,6 +30,5 @@
 
   .app-store_logo {
     padding-inline-start: 0;
-    padding-inline-end: calc(var(--padding-inline));
   }
 }
