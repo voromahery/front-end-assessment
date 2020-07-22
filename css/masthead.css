@@ -6,6 +6,9 @@
   }
 
   .masthead__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
     padding-block-start:var(--padding-block);
     padding-block-end:var(--padding-block);
@@ -35,8 +38,18 @@
   }
 
 @media (min-width: 365px) {
+
+  .masthead {
+    max-width: 1000px;
+    background-image: url("../img/bg_header.png");
+    background-position-x: 500px;
+    background-size: 450px;
+    background-repeat: no-repeat;
+  }
+
   .masthead__section {
-    max-width: 100%;
+    align-items: self-start;
+    max-width: 500px;
     padding-inline-start: calc(var(--padding-inline) * 2);
     padding-inline-end: calc(var(--padding-inline) * 2);
   }
@@ -71,9 +84,6 @@
 }
 
   .masthead__image {
-    position: relative;
-    grid-column: 2;
-    position: absolute;
-    top: -35%;
+
 }
 }
