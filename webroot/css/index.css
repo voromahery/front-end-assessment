@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Latodaniel';
+  src: local("Lato-Regular"), local("Lato Regular");
+  src: url("../fonts/lato-regular.woff2");
+  src: url("../fonts/lato-regular.woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Latodaniel';
+  src: local("Lato-Bold"), local("Lato Bold");
+  src: url("../fonts/lato-bold.woff2");
+  src: url("../fonts/lato-bold.woff");
+  font-weight: 700; }
+
+:root {
+  --padding-inline: 2rem;
+  --padding-block: 2rem;
+  --margin-inline: 2rem;
+  --margin-block: 2rem; }
+
+body {
+  font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
+  background-color: #F4F6F9;
+  margin-inline-start: var(--margin-inline);
+  margin-inline-end: var(--margin-inline);
+  margin: auto; }
+
+ul {
+  list-style: none; }
+
+@media (min-width: 1000px) {
+  body {
+    margin: auto;
+    /* display: grid;
+      grid-template-columns: 60% 40%;
+      background-image: url("../img/bg_header.png");
+      background-position: 130% 70%;
+      background-size: 60%;
+      background-repeat: no-repeat; */
+    /* padding-inline-start: calc(var(--padding-inline) * 2);
+      padding-inline-end: calc(var(--padding-inline) * 2); */ } }
+
+.masthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%; }
+
+.masthead__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-block-start: var(--padding-block);
+  padding-block-end: var(--padding-block);
+  padding-inline-start: var(--padding-inline);
+  padding-inline-end: var(--padding-inline); }
+
+img[alt="phones"] {
+  display: none; }
+
+.masthead__section--header {
+  font-size: 30px;
+  color: #333333;
+  text-align: center; }
+
+.masthead__section--paragraph {
+  color: #4F4F4F;
+  font-weight: 400;
+  text-align: center; }
+
+.masthead__section--list {
+  padding: 0;
+  display: flex; }
+
+@media (min-width: 1000px) {
+  .masthead {
+    display: block;
+    background-image: url("../img/bg_header.png");
+    background-position: calc(50vw - 11px);
+    background-repeat: no-repeat; }
+  .container {
+    max-width: 1114px; }
+  .masthead__section {
+    align-items: self-start;
+    max-width: 546px; }
+  .masthead__section--header {
+    font-size: 36px;
+    color: #333333;
+    text-align: start; }
+  .masthead__section--paragraph {
+    font-size: 18px;
+    color: #4F4F4F;
+    font-weight: 400;
+    text-align: start; }
+  .masthead__section--list {
+    padding: 0;
+    display: flex; }
+  .masthead__section--list,
+  .masthead__section--header {
+    padding-block-start: var(--padding-block);
+    padding-block-end: var(--padding-block); }
+  img[alt="phones"] {
+    display: block; } }
+
+.masthead__section--link-homepage_logo {
+  width: 186px;
+  height: 70px; }
+
+.google-play_logo,
+.app-store_logo {
+  width: 145.69px;
+  height: 44px;
+  padding-inline-start: calc(var(--padding-inline) / 2);
+  padding-inline-end: calc(var(--padding-inline) / 2); }
+
+@media (min-width: 365px) {
+  .masthead__section--link-homepage_logo {
+    width: 92px;
+    height: 32px; }
+  .google-play_logo,
+  .app-store_logo {
+    width: 156.05px;
+    height: 47px; }
+  .google-play_logo {
+    padding-inline-start: calc(var(--padding-inline) / 2);
+    padding-inline-end: 0; }
+  .app-store_logo {
+    padding-inline-start: 0; } }
