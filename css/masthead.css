@@ -37,21 +37,20 @@
     display: flex;
   }
 
-@media (min-width: 365px) {
-
+@media (min-width: 1000px) {
   .masthead {
-    max-width: 1000px;
     background-image: url("../img/bg_header.png");
-    background-position-x: 500px;
-    background-size: 450px;
+    background-position: calc(50vw - 11px) 70%;
     background-repeat: no-repeat;
   }
 
+.container {
+  max-width: 1114px;
+}
+
   .masthead__section {
     align-items: self-start;
-    max-width: 500px;
-    padding-inline-start: calc(var(--padding-inline) * 2);
-    padding-inline-end: calc(var(--padding-inline) * 2);
+    max-width: 546px;
   }
 
   .masthead__section--header {
