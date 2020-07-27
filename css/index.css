@@ -31,7 +31,14 @@ ul {
 @media (min-width: 375px) {
   body {
     margin: auto;
-  }
+    /* display: grid;
+      grid-template-columns: 60% 40%;
+      background-image: url("../img/bg_header.png");
+      background-position: 130% 70%;
+      background-size: 60%;
+      background-repeat: no-repeat; */
+    /* padding-inline-start: calc(var(--padding-inline) * 2);
+      padding-inline-end: calc(var(--padding-inline) * 2); */ } }
 
 .masthead {
   display: flex;
@@ -65,11 +72,13 @@ img[alt="phones"] {
   padding: 0;
   display: flex; }
 
-@media (min-width: 350px) {
+@media (min-width: 1114px) {
   .masthead {
     background-image: url("../img/bg_header.png");
-    background-position: calc(50vw - 11px);
-    background-repeat: no-repeat; }
+    background-position: calc(50vw - 11px) 100%;
+    background-repeat: no-repeat;
+    padding-block-start: 4rem;
+    padding-block-end: 4rem; }
   .masthead__container {
     margin-inline-end: auto;
     max-width: 1114px; }
