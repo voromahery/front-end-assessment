@@ -1,0 +1,9 @@
+@mixin reset-list ($list-style, $margin, $list-padding) {
+  list-style: $list-style;
+  margin: $margin;
+  padding: $list-padding;
+}
+
+
+// @include reset-list(none, 0, 0);
+

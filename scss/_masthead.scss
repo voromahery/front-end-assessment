@@ -37,11 +37,13 @@
     display: flex;
   }
 
-@media (min-width: 350px) {
+@media (min-width: $break-point-desktop) {
   .masthead {
     background-image: url("../img/bg_header.png");
-    background-position: calc(50vw - 11px);
+    background-position: calc(50vw - 11px) 100%;
     background-repeat: no-repeat;
+    padding-block-start: $padding * 2;
+    padding-block-end: $padding * 2;
   }
 
   .masthead__container {

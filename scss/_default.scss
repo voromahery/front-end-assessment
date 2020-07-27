@@ -1,8 +1,6 @@
 @import "./variable";
 
 :root {
-    --padding-inline: 2rem;
-    --padding-block: 2rem;
     --margin-inline: 2rem;
     --margin-block: 2rem;
   }
@@ -16,19 +14,11 @@
   }
 
   ul {
-    list-style: none;
+    @include reset-list(none, 0, 0);
   }
 
-  @media (min-width: 375px) {
+  @media (min-width: $break-point-desktop) {
   body {
     margin: auto;
-      /* display: grid;
-      grid-template-columns: 60% 40%;
-      background-image: url("../img/bg_header.png");
-      background-position: 130% 70%;
-      background-size: 60%;
-      background-repeat: no-repeat; */
-      /* padding-inline-start: calc(var(--padding-inline) * 2);
-      padding-inline-end: calc(var(--padding-inline) * 2); */
     }
   }
