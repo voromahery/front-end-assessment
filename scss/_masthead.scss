@@ -1,6 +1,6 @@
-  .masthead {
+@import "./variable";
+.masthead {
     display: flex;
-    flex-direction: column;
     align-items: center;
     max-width: 100%;
   }
@@ -37,21 +37,21 @@
     display: flex;
   }
 
-@media (min-width: 1000px) {
+@media (min-width: 350px) {
   .masthead {
-    display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px);
     background-repeat: no-repeat;
   }
 
-.container {
-  max-width: 1114px;
-}
+  .masthead__container {
+    margin-inline-end: auto;
+    max-width: 1114px;
+  }
 
   .masthead__section {
     align-items: self-start;
-    max-width: 546px;
+    max-width: 547px;
   }
 
   .masthead__section--header {
@@ -83,7 +83,4 @@
     display: block;
 }
 
-  .masthead__image {
-
-}
 }

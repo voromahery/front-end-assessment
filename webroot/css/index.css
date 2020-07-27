@@ -28,21 +28,13 @@ body {
 ul {
   list-style: none; }
 
-@media (min-width: 1000px) {
+@media (min-width: 375px) {
   body {
     margin: auto;
-    /* display: grid;
-      grid-template-columns: 60% 40%;
-      background-image: url("../img/bg_header.png");
-      background-position: 130% 70%;
-      background-size: 60%;
-      background-repeat: no-repeat; */
-    /* padding-inline-start: calc(var(--padding-inline) * 2);
-      padding-inline-end: calc(var(--padding-inline) * 2); */ } }
+  } }
 
 .masthead {
   display: flex;
-  flex-direction: column;
   align-items: center;
   max-width: 100%; }
 
@@ -73,17 +65,17 @@ img[alt="phones"] {
   padding: 0;
   display: flex; }
 
-@media (min-width: 1000px) {
+@media (min-width: 350px) {
   .masthead {
-    display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px);
     background-repeat: no-repeat; }
-  .container {
+  .masthead__container {
+    margin-inline-end: auto;
     max-width: 1114px; }
   .masthead__section {
     align-items: self-start;
-    max-width: 546px; }
+    max-width: 547px; }
   .masthead__section--header {
     font-size: 36px;
     color: #333333;
@@ -114,7 +106,7 @@ img[alt="phones"] {
   padding-inline-start: calc(var(--padding-inline) / 2);
   padding-inline-end: calc(var(--padding-inline) / 2); }
 
-@media (min-width: 365px) {
+@media (min-width: 375px) {
   .masthead__section--link-homepage_logo {
     width: 92px;
     height: 32px; }

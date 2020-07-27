@@ -1,4 +1,6 @@
-  .masthead__section--link-homepage_logo {
+@import "./variable";
+
+.masthead__section--link-homepage_logo {
     width: 186px;
     height: 70px;
 }
@@ -11,7 +13,7 @@
     padding-inline-end: calc(var(--padding-inline) / 2);
   }
 
-@media (min-width: 365px) {
+@media (min-width: 375px) {
   .masthead__section--link-homepage_logo {
     width: 92px;
     height: 32px;
