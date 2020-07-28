@@ -1,10 +1,5 @@
 @import "variable";
 
-:root {
-    --margin-inline: 2rem;
-    --margin-block: 2rem;
-  }
-
   body {
     font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
     background-color: #F4F6F9;
@@ -15,8 +10,8 @@
 
   ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
 
   @media (min-width: $break-point-desktop) {

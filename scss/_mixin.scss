@@ -1,11 +1,11 @@
 @import "variable";
 
-@mixin reset-list ($list-style, $margin, $list-padding) {
-  list-style: $list-style;
-  margin: $margin;
-  padding: $list-padding;
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-
-// @include reset-list(none, 0, 0);
-
+// ul {
+//   @include reset-list;
+// }
