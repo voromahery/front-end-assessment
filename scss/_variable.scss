@@ -5,6 +5,10 @@ $color-header-section:  #4F4F4F;
 //Section more information color
 $sky-blue: #00ADEE;
 
+// Background color.
+
+$common-background-color: #F4F6F9;
+
 $padding: 2rem;
 $margin: 2rem;
 
@@ -15,3 +19,6 @@ $font-regular: "lato-regular";
 
 // Media query for desktop
 $break-point-desktop: 1114px;
+
+// Icon.
+$icon-path: "./img/";

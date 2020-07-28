@@ -1,0 +1,15 @@
+@import "./variable.scss";
+
+.section_feature {
+  background-color: $common-background-color;
+  padding-block-start: $padding;
+  padding-block-end: $padding;
+}
+
+.feature_article_heading {
+  color: $color-heading;
+}
+
+.notification {
+  background-image: url("#{$icon-path}bell_notification.svg");
+}

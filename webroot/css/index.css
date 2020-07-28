@@ -120,7 +120,9 @@ img[alt="phones"] {
 
 .section_more-information {
   background-color: #FFFFFF;
-  text-align: center; }
+  text-align: center;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem; }
 
 .section_more-information a {
   color: #00ADEE; }
@@ -138,3 +140,14 @@ img[alt="phones"] {
   position: absolute;
   bottom: 520%;
   right: 12%; }
+
+.section_feature {
+  background-color: #F4F6F9;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem; }
+
+.feature_article_heading {
+  color: #333333; }
+
+.notification {
+  background-image: url("./img/bell_notification.svg"); }

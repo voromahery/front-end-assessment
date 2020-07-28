@@ -3,6 +3,8 @@
 .section_more-information {
     background-color: #FFFFFF;
     text-align: center;
+    padding-block-start: $padding;
+    padding-block-end: $padding;
   }
 
 .section_more-information a
@@ -27,3 +29,4 @@
     bottom: 520%;
     right: 12%;
  }
+
