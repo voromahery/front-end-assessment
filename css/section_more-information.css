@@ -10,3 +10,11 @@
 
 .more-information__link {
   font-weight: 700; }
+
+.feature_article__picture {
+  position: relative; }
+
+.phone-image {
+  position: absolute;
+  bottom: 520%;
+  right: 12%; }
