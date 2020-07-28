@@ -10,10 +10,20 @@
     color: $sky-blue;
   }
 
- .section_more-information--heading {
+.section_more-information--heading {
     text-transform: uppercase;
   }
 
-  .more-information__link {
+.more-information__link {
     font-weight: 700;
   }
+
+.feature_article__picture {
+  position: relative;
+}
+
+.phone-image {
+    position: absolute;
+    bottom: 520%;
+    right: 12%;
+ }
