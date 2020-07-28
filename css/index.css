@@ -19,8 +19,8 @@
 body {
   font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
   background-color: #F4F6F9;
-  margin-inline-start: var(--margin-inline);
-  margin-inline-end: var(--margin-inline);
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
   margin: auto; }
 
 ul {
@@ -102,8 +102,8 @@ img[alt="phones"] {
 .app-store_logo {
   width: 145.69px;
   height: 44px;
-  padding-inline-start: calc(var(--padding-inline) / 2);
-  padding-inline-end: calc(var(--padding-inline) / 2); }
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem; }
 
 @media (min-width: 1114px) {
   .masthead__section--link-homepage_logo {
@@ -114,7 +114,7 @@ img[alt="phones"] {
     width: 156.05px;
     height: 47px; }
   .google-play_logo {
-    padding-inline-start: calc(var(--padding-inline) / 2);
+    padding-inline-start: 1rem;
     padding-inline-end: 0; }
   .app-store_logo {
     padding-inline-start: 0; } }
