@@ -1,6 +1,15 @@
+// Header color
 $color-heading: #333333;
 $color-header-section:  #4F4F4F;
+
+
 $padding: 2rem;
+$margin: 2rem;
+
+// Font properties
+$lato-font-path: "../fonts";
+$font-bold: "lato-bold";
+$font-regular: "lato-regular";
+
+// Media query for desktop
 $break-point-desktop: 1114px;
-
-

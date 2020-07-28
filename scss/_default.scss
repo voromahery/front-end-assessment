@@ -8,8 +8,8 @@
   body {
     font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
     background-color: #F4F6F9;
-    margin-inline-start: var(--margin-inline);
-    margin-inline-end: var(--margin-inline);
+    margin-inline-start: $margin;
+    margin-inline-end: $margin;
     margin: auto;
   }
 

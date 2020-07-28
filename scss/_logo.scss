@@ -9,8 +9,8 @@
   .app-store_logo {
     width:145.69px;
     height: 44px;
-    padding-inline-start: calc(var(--padding-inline) / 2);
-    padding-inline-end: calc(var(--padding-inline) / 2);
+    padding-inline-start: $padding / 2;
+    padding-inline-end: $padding / 2;
   }
 
 @media (min-width: $break-point-desktop) {
@@ -26,7 +26,7 @@
   }
 
   .google-play_logo {
-    padding-inline-start: calc(var(--padding-inline) / 2);
+    padding-inline-start: $padding / 2;
     padding-inline-end: 0;
   }
 

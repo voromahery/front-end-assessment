@@ -3,8 +3,8 @@
 @font-face {
   font-family: 'Latodaniel';
   src: local("Lato-Regular"), local("Lato Regular");
-  src: url("../fonts/lato-regular.woff2") format("woff2");
-  src: url("../fonts/lato-regular.woff") format("woff");
+  src: url("#{$lato-font-path}/#{$font-regular}.woff2") format("woff2");
+  src: url("#{$lato-font-path}/#{$font-regular}.woff") format("woff");
   font-weight: 400;
 }
 
@@ -13,7 +13,7 @@
 @font-face {
   font-family: 'Latodaniel';
   src: local("Lato-Bold"), local("Lato Bold");
-  src: url("../fonts/lato-bold.woff2");
-  src: url("../fonts/lato-bold.woff");
+  src: url("#{$lato-font-path}/#{$font-bold}.woff2");
+  src: url("#{$lato-font-path}/#{$font-bold}.woff");
   font-weight: 700;
 };
