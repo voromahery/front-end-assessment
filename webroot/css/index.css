@@ -14,15 +14,19 @@
 
 body {
   font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
-  background-color: #F4F6F9;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
-  margin: auto; }
+  margin: auto;
+  line-height: 1.5;
+  text-align: center; }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
+
+a {
+  text-decoration: none; }
 
 @media (min-width: 1114px) {
   body {
@@ -30,8 +34,7 @@ ul {
 
 .masthead {
   display: flex;
-  align-items: center;
-  max-width: 100%; }
+  background-color: #F4F6F9; }
 
 .masthead__section {
   display: flex;
@@ -114,3 +117,16 @@ img[alt="phones"] {
     padding-inline-end: 0; }
   .app-store_logo {
     padding-inline-start: 0; } }
+
+.section_more-information {
+  background-color: #FFFFFF;
+  text-align: center; }
+
+.section_more-information a {
+  color: #00ADEE; }
+
+.section_more-information--heading {
+  text-transform: uppercase; }
+
+.more-information__link {
+  font-weight: 700; }

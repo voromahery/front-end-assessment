@@ -2,16 +2,21 @@
 
   body {
     font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
-    background-color: #F4F6F9;
     margin-inline-start: $margin;
     margin-inline-end: $margin;
     margin: auto;
+    line-height: 1.5;
+    text-align: center;
   }
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   @media (min-width: $break-point-desktop) {

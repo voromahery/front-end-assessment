@@ -1,8 +1,11 @@
-@import "variable";
+@import "./variable.scss";
+
 .masthead {
     display: flex;
-    align-items: center;
-    max-width: 100%;
+    background-color: #F4F6F9;
+  }
+
+  .masthead__container {
   }
 
   .masthead__section {

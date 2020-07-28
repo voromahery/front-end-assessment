@@ -1,0 +1,12 @@
+.section_more-information {
+  background-color: #FFFFFF;
+  text-align: center; }
+
+.section_more-information a {
+  color: #00ADEE; }
+
+.section_more-information--heading {
+  text-transform: uppercase; }
+
+.more-information__link {
+  font-weight: 700; }
