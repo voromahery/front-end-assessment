@@ -1,10 +1,14 @@
+@import "variable";
+
 @font-face {
   font-family: 'Latodaniel';
   src: local("Lato-Regular"), local("Lato Regular");
-  src: url("../fonts/lato-regular.woff2");
-  src: url("../fonts/lato-regular.woff");
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  src: url("../fonts/lato-regular.woff") format("woff");
   font-weight: 400;
 }
+
+// @include font-face();
 
 @font-face {
   font-family: 'Latodaniel';

@@ -1,4 +1,4 @@
-@import "./variable";
+@import "variable";
 
 :root {
     --margin-inline: 2rem;
@@ -14,7 +14,9 @@
   }
 
   ul {
-    @include reset-list(none, 0, 0);
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   @media (min-width: $break-point-desktop) {
