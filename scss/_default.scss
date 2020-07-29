@@ -5,14 +5,21 @@
     margin-inline-start: $margin;
     margin-inline-end: $margin;
     margin: auto;
-    line-height: 1.5;
+    line-height: 1.6;
     text-align: center;
+    font-size: 18px;
   }
+
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    color: $color-heading;
   }
 
   a {

@@ -5,6 +5,10 @@
     text-align: center;
     padding-block-start: $padding;
     padding-block-end: $padding;
+    background-image: url("#{$image-path}bg_friendly_user_interface.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 1723px;
   }
 
 .section_more-information a
@@ -20,13 +24,17 @@
     font-weight: 700;
   }
 
-.feature_article__picture {
-  position: relative;
-}
+  .phone-image {
+    max-width: 100%;
+  }
 
-.phone-image {
-    position: absolute;
-    bottom: 520%;
-    right: 12%;
- }
+// .feature_article__picture {
+//   position: relative;
+// }
+
+// .phone-image {
+//     position: absolute;
+//     bottom: 520%;
+//     right: 12%;
+//  }
 
