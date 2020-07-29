@@ -12,5 +12,42 @@
 
 .notification {
   background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
+}
+
+.all-videos {
+  background-image: url("#{$icon-path}icon_video_blue.svg");
+}
+
+.new-videos {
+  background-image: url("#{$icon-path}icon_hd_blue.svg");
+}
+
+.pages {
+  background-image: url("#{$icon-path}icon_flag_blue.svg");
+}
+
+.pictures {
+ background-image: url("#{$icon-path}icon_tent_blue.svg");
+}
+
+.update-leagues {
+  background-image: url("#{$icon-path}icon_graph_blue.svg");
+}
+
+.notification,
+.all-videos,
+.new-videos,
+.pages,
+.pictures,
+.update-leagues {
+  margin: auto;
   background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  display: block;
+  text-indent: -9999px;
 }
