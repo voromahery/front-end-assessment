@@ -1,0 +1,8 @@
+@import "./variable.scss";
+
+.section__feature-partenaire {
+  background-color: $common-background-color;
+  margin: 0;
+  padding-block-start: $padding;
+  padding-block-end: $padding;
+}

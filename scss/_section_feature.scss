@@ -10,6 +10,12 @@
   color: $color-heading;
 }
 
+.feature_article__list-item {
+  margin: 0;
+  padding-block-start: $padding;
+  padding-block-end: $padding;
+}
+
 .notification {
   background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
 }
@@ -41,13 +47,11 @@
 .pictures,
 .update-leagues {
   margin: auto;
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
-  border-radius: 50%;
   display: block;
   text-indent: -9999px;
 }
