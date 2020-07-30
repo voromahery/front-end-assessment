@@ -11,3 +11,9 @@
   display: block;
   text-indent: -9999px;
 }
+
+@mixin background-property {
+  background-position: 50% 0;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}

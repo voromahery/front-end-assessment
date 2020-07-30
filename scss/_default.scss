@@ -9,6 +9,11 @@
     text-align: center;
     font-size: 18px;
   }
+
+  section {
+    padding: $padding;
+  }
+
   ul {
     @include reset-list;
   }
@@ -19,7 +24,9 @@
   }
 
   h3 {
-    margin-block-start: 0;
+    margin: 0;
+    padding-block-start: $padding;
+    padding-block-end: $padding;
   }
 
   a {

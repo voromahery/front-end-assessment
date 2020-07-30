@@ -13,44 +13,10 @@
 
 .feature_article__list-item {
   margin: 0;
-  padding-block-start: $padding;
+  padding-block-start: ($padding * 6) / 4;
   padding-block-end: $padding;
 }
 
-.notification {
-  background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
-}
-
-.all-videos {
-  background-image: url("#{$icon-path}icon_video_blue.svg");
-}
-
-.new-videos {
-  background-image: url("#{$icon-path}icon_hd_blue.svg");
-}
-
-.pages {
-  background-image: url("#{$icon-path}icon_flag_blue.svg");
-}
-
-.pictures {
- background-image: url("#{$icon-path}icon_tent_blue.svg");
-}
-
-.update-leagues {
-  background-image: url("#{$icon-path}icon_graph_blue.svg");
-}
-
-.notification,
-.all-videos,
-.new-videos,
-.pages,
-.pictures,
-.update-leagues {
-  margin: auto;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-position: 50% 50%;
-  @include icon-property;
+.feature_article__list-item a {
+  color: $color-header-section;
 }

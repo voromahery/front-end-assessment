@@ -1,6 +1,7 @@
 @import "variable";
 @import "mixin";
 
+// Header icon.
 .masthead__section--link-homepage_logo {
     width: 186px;
     height: 70px;
@@ -13,6 +14,108 @@
     padding-inline-start: $padding / 2;
     padding-inline-end: $padding / 2;
   }
+
+// Feature icon
+.feature_article__list-item-notification {
+  position: relative;
+}
+
+// .feature_article__list-item-notification::before {
+//   content: " ";
+//   background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
+//   vertical-align: middle;
+//   width: 2rem;
+//   height: 2rem;
+//   background-size: contain;
+//   position: absolute;
+//   background-repeat: no-repeat;
+//   margin-top: -0.75rem;
+//   top: 0%;
+//   right: 50%;
+// }
+
+.notifications {
+  background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
+}
+
+
+.all-videos {
+  background-image: url("#{$icon-path}icon_video_blue.svg");
+}
+
+.new-videos {
+  background-image: url("#{$icon-path}icon_hd_blue.svg");
+}
+
+.pages {
+  background-image: url("#{$icon-path}icon_flag_blue.svg");
+}
+
+.pictures {
+ background-image: url("#{$icon-path}icon_tent_blue.svg");
+}
+
+.update-leagues {
+  background-image: url("#{$icon-path}icon_graph_blue.svg");
+}
+
+.notifications,
+.all-videos,
+.new-videos,
+.pages,
+.pictures,
+.update-leagues {
+  @include background-property;
+}
+
+// Feature partenaire icon
+.sport-tv_icon {
+  background-image: url("#{$icon-path}logo_sports_tv.svg");
+  width: 149px;
+  height: 52px;
+}
+
+.sports-black_icon {
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url("#{$icon-path}logo_sports_channel.svg");
+  width: 102px;
+  height: 32px;
+}
+
+.nbc-sports_icon {
+  background-image: url("#{$icon-path}logo_nbc_sports.svg");
+  width: 69px;
+  height: 58px;
+}
+
+.designer-technology_icon {
+  background-image: url("#{$icon-path}logo_designer_technology.svg");
+  width: 110px;
+  height: 32px;
+}
+
+.logo_designer_new_icon {
+  background-image: url("#{$icon-path}logo_designer_news.svg");
+  width: 48px;
+  height: 48px;
+}
+
+.sky-sports_icon {
+  background-image: url("#{$icon-path}logo_sky_sports.svg");
+  width: 210px;
+  height: 34px;
+}
+
+.sport-tv_icon,
+.sports-black_icon,
+.nbc-sports_icon,
+.designer-technology_icon,
+.logo_designer_new_icon,
+.sky-sports_icon {
+  background-size: contain;
+  @include icon-property;
+}
 
 @media (min-width: $break-point-desktop) {
   .masthead__section--link-homepage_logo {
