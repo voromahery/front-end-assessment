@@ -248,3 +248,49 @@ img[alt="phones"] {
   background-size: contain;
   display: block;
   text-indent: -9999px; }
+
+footer {
+  background-color: #00ADEE;
+  margin: 0;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem; }
+
+.a11y_link {
+  color: #FFFFFF; }
+
+.social-media_list,
+.a11y_list {
+  display: flex; }
+
+.social-media_list > li,
+.a11y_list > li {
+  padding: 0.5rem; }
+
+.sports-logo {
+  margin: 0; }
+
+footer .sports-logo_icon {
+  background-image: url("../img/logo_sports_white.svg"); }
+
+footer .sports-logo_icon,
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px; }
+
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  width: 2rem;
+  height: 2rem; }
+
+.icon_twitter {
+  background-image: url("../img/icon_twitter.svg"); }
+
+.icon_facebook {
+  background-image: url("../img/icon_facebook.svg"); }
+
+.icon_instagram {
+  background-image: url("../img/icon_instagram.svg"); }
