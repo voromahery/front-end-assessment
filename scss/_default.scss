@@ -1,5 +1,5 @@
 @import "variable";
-
+@import "mixin";
   body {
     font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
     margin-inline-start: $margin;
@@ -9,12 +9,8 @@
     text-align: center;
     font-size: 18px;
   }
-
-
   ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    @include reset-list;
   }
 
   h2 {

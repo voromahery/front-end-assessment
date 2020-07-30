@@ -187,9 +187,9 @@ img[alt="phones"] {
   margin: auto;
   width: 40px;
   height: 40px;
-  background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
+  background-repeat: no-repeat;
   display: block;
   text-indent: -9999px; }
 
@@ -244,8 +244,8 @@ img[alt="phones"] {
 .designer-technology_icon,
 .logo_designer_new_icon,
 .sky-sports_icon {
-  background-repeat: no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
   display: block;
   text-indent: -9999px; }
 

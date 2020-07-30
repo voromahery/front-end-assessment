@@ -1,4 +1,4 @@
-@import "variable";
+@import "./variable";
 
 @mixin reset-list {
   list-style: none;
@@ -6,6 +6,8 @@
   padding: 0;
 }
 
-// ul {
-//   @include reset-list;
-// }
+@mixin icon-property {
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
