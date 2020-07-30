@@ -1,0 +1,58 @@
+@import "./variable.scss";
+
+footer {
+  background-color:  $sky-blue;
+  margin: 0;
+  padding-block-start: $padding;
+  padding-block-end: $padding
+}
+
+.a11y_link {
+  color: #FFFFFF;
+}
+
+.social-media_list,
+.a11y_list {
+  display: flex;
+}
+
+.social-media_list > li,
+.a11y_list > li {
+  padding: $padding / 4;
+ }
+
+.sports-logo {
+  margin: 0;
+}
+
+footer .sports-logo_icon {
+  background-image: url("#{$icon-path}logo_sports_white.svg");
+}
+
+footer .sports-logo_icon,
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px;
+}
+
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon_twitter {
+  background-image: url("#{$icon-path}icon_twitter.svg");
+ }
+
+.icon_facebook {
+  background-image: url("#{$icon-path}icon_facebook.svg");
+ }
+
+.icon_instagram {
+  background-image: url("#{$icon-path}icon_instagram.svg");
+ }
