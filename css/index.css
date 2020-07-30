@@ -198,3 +198,53 @@ img[alt="phones"] {
   margin: 0;
   padding-block-start: 2rem;
   padding-block-end: 2rem; }
+
+.feature-partenaire__list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem; }
+
+.sport-tv_icon {
+  background-image: url("../img/logo_sports_tv.svg");
+  width: 149px;
+  height: 52px; }
+
+.sports-black_icon {
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url("../img/logo_sports_channel.svg");
+  width: 102px;
+  height: 32px; }
+
+.nbc-sports_icon {
+  background-image: url("../img/logo_nbc_sports.svg");
+  width: 69px;
+  height: 58px; }
+
+.designer-technology_icon {
+  background-image: url("../img/logo_designer_technology.svg");
+  width: 110px;
+  height: 32px; }
+
+.logo_designer_new_icon {
+  background-image: url("../img/logo_designer_news.svg");
+  width: 48px;
+  height: 48px; }
+
+.sky-sports_icon {
+  background-image: url("../img/logo_sky_sports.svg");
+  width: 210px;
+  height: 34px; }
+
+.sport-tv_icon,
+.sports-black_icon,
+.nbc-sports_icon,
+.designer-technology_icon,
+.logo_designer_new_icon,
+.sky-sports_icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  text-indent: -9999px; }
