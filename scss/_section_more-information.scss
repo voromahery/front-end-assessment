@@ -1,15 +1,16 @@
 @import "./variable.scss";
 @import "mixin";
 
+$phone-mockup-height: 600px;
+
 .section_more-information {
     background-color: #FFFFFF;
     text-align: center;
     padding-block-start: $padding;
-    padding-block-end: $padding;
-    background-image: url("#{$image-path}bg_friendly_user_interface.png");
+    padding-block-end: $phone-mockup-height;
+    background-image: url("#{$image-path}bg_friendly_user_interface-small.png");
     background-repeat: no-repeat;
-    background-position: 50% 20%;
-    min-height: 1100px;
+    background-position: 50% 100%;
   }
 
 .section_more-information a
@@ -38,4 +39,23 @@
 //     bottom: 520%;
 //     right: 12%;
 //  }
+@media (min-width: $break-point-desktop) {
+.section_more-information {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-block-start: $padding * 2;
+  padding-block-end: $padding * 2;
+}
 
+.use-interface__container {
+  margin-inline-end: auto;
+  max-width: $break-point-desktop;
+}
+
+.user-interface {
+  align-items: self-start;
+  max-width: 547px;
+  margin: 0;
+}
+
+}
