@@ -3,8 +3,8 @@
 
 .section_feature {
   background-color: $common-background-color;
-  padding-block-start: $padding;
-  padding-block-end: $padding;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
 }
 
 .feature_article_heading {
@@ -19,4 +19,28 @@
 
 .feature_article__list-item a {
   color: $color-header-section;
+}
+@media (min-width: $break-point-desktop) {
+  .section_feature {
+    background-color: $sky-blue;
+    color: #FFFFFF;
+    padding-block-start: 76px;
+    padding-block-end: 67px;
+    padding-inline-start: 166px;
+    padding-inline-end: 164px;
+  }
+
+  .feature_article__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    text-align: start;
+    list-style: inside;
+  }
+
+  .feature_article_heading,
+  .feature_article__list-item a {
+    color: #FFFFFF;
+  }
+
 }

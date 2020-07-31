@@ -11,8 +11,7 @@
   .app-store_logo {
     width:145.69px;
     height: 44px;
-    margin-block-start: 2rem;
-    margin-block-end: 2rem;
+    padding-block-start: 50px;
     padding-inline-start: $padding / 2;
     padding-inline-end: $padding / 2;
   }
@@ -21,20 +20,6 @@
 .feature_article__list-item-notification {
   position: relative;
 }
-
-// .feature_article__list-item-notification::before {
-//   content: " ";
-//   background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
-//   vertical-align: middle;
-//   width: 2rem;
-//   height: 2rem;
-//   background-size: contain;
-//   position: absolute;
-//   background-repeat: no-repeat;
-//   margin-top: -0.75rem;
-//   top: 0%;
-//   right: 50%;
-// }
 
 .notifications {
   background-image: url("#{$icon-path}icon_bell_ringing_blue.svg");
@@ -139,4 +124,45 @@
   .app-store_logo {
     padding-inline-start: 0;
   }
+}
+
+// Feature icon
+.feature_article__list-item-notification {
+  position: relative;
+}
+
+.notifications {
+  background-image: url("#{$icon-path}icon_bell_ringing_white.svg");
+}
+
+
+.all-videos {
+  background-image: url("#{$icon-path}icon_video_white.svg");
+}
+
+.new-videos {
+  background-image: url("#{$icon-path}icon_hd_white.svg");
+}
+
+.pages {
+  background-image: url("#{$icon-path}icon_flag_white.svg");
+}
+
+.pictures {
+ background-image: url("#{$icon-path}icon_tent_white.svg");
+}
+
+.update-leagues {
+  background-image: url("#{$icon-path}icon_graph_white.svg");
+}
+
+.notifications,
+.all-videos,
+.new-videos,
+.pages,
+.pictures,
+.update-leagues {
+  background-position: left 0;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
 }

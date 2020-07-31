@@ -17,12 +17,9 @@ body {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   margin: auto;
-  line-height: 1.6;
+  line-height: 48px;
   text-align: center;
   font-size: 18px; }
-
-section {
-  padding: 2rem; }
 
 ul {
   list-style: none;
@@ -54,10 +51,8 @@ a {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem; }
+  padding-block-start: 30px;
+  padding-block-end: 59px; }
 
 img[alt="phones"] {
   display: none; }
@@ -84,6 +79,7 @@ img[alt="phones"] {
     padding-block-end: 4rem; }
   .masthead__container {
     margin-inline-end: auto;
+    margin-inline-start: auto;
     max-width: 1114px; }
   .masthead__section {
     align-items: self-start;
@@ -113,8 +109,7 @@ img[alt="phones"] {
 .app-store_logo {
   width: 145.69px;
   height: 44px;
-  margin-block-start: 2rem;
-  margin-block-end: 2rem;
+  padding-block-start: 50px;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem; }
 
@@ -206,6 +201,37 @@ img[alt="phones"] {
   .app-store_logo {
     padding-inline-start: 0; } }
 
+.feature_article__list-item-notification {
+  position: relative; }
+
+.notifications {
+  background-image: url("../img/icon_bell_ringing_white.svg"); }
+
+.all-videos {
+  background-image: url("../img/icon_video_white.svg"); }
+
+.new-videos {
+  background-image: url("../img/icon_hd_white.svg"); }
+
+.pages {
+  background-image: url("../img/icon_flag_white.svg"); }
+
+.pictures {
+  background-image: url("../img/icon_tent_white.svg"); }
+
+.update-leagues {
+  background-image: url("../img/icon_graph_white.svg"); }
+
+.notifications,
+.all-videos,
+.new-videos,
+.pages,
+.pictures,
+.update-leagues {
+  background-position: left 0;
+  background-size: 2.5rem;
+  background-repeat: no-repeat; }
+
 .section_more-information {
   background-color: #FFFFFF;
   text-align: center;
@@ -229,12 +255,14 @@ img[alt="phones"] {
 
 @media (min-width: 1114px) {
   .section_more-information {
-    background-position: 50% 50%;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-position: calc(50% + 330px) 50%;
     background-repeat: no-repeat;
-    padding-block-start: 4rem;
-    padding-block-end: 4rem; }
+    padding-block-start: 217px;
+    padding-block-end: 171px; }
   .use-interface__container {
     margin-inline-end: auto;
+    margin-inline-start: auto;
     max-width: 1114px; }
   .user-interface {
     align-items: self-start;
@@ -243,8 +271,8 @@ img[alt="phones"] {
 
 .section_feature {
   background-color: #F4F6F9;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem; }
+  margin-inline-end: auto;
+  margin-inline-start: auto; }
 
 .feature_article_heading {
   color: #333333; }
@@ -256,6 +284,24 @@ img[alt="phones"] {
 
 .feature_article__list-item a {
   color: #4F4F4F; }
+
+@media (min-width: 1114px) {
+  .section_feature {
+    background-color: #00ADEE;
+    color: #FFFFFF;
+    padding-block-start: 76px;
+    padding-block-end: 67px;
+    padding-inline-start: 166px;
+    padding-inline-end: 164px; }
+  .feature_article__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    text-align: start;
+    list-style: inside; }
+  .feature_article_heading,
+  .feature_article__list-item a {
+    color: #FFFFFF; } }
 
 .section__feature-partenaire {
   background-color: #F4F6F9;
@@ -273,7 +319,8 @@ img[alt="phones"] {
 footer {
   background-color: #00ADEE;
   margin: 0;
-  padding: 2rem; }
+  margin-inline-end: auto;
+  margin-inline-start: auto; }
 
 .a11y_link {
   color: #FFFFFF; }

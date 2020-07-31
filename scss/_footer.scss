@@ -4,7 +4,8 @@
 footer {
   background-color:  $sky-blue;
   margin: 0;
-  padding: $padding;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
 }
 
 .a11y_link {

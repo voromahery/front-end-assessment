@@ -13,10 +13,8 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding-block-start: $padding;
-    padding-block-end: $padding;
-    padding-inline-start: $padding;
-    padding-inline-end: $padding;
+    padding-block-start: 30px;
+    padding-block-end: 59px;
   }
 
   img[alt="phones"] {
@@ -50,6 +48,7 @@
 
   .masthead__container {
     margin-inline-end: auto;
+    margin-inline-start: auto;
     max-width: $break-point-desktop;
   }
 

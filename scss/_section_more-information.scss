@@ -30,25 +30,18 @@ $phone-mockup-height: 600px;
     max-width: 100%;
   }
 
-// .feature_article__picture {
-//   position: relative;
-// }
-
-// .phone-image {
-//     position: absolute;
-//     bottom: 520%;
-//     right: 12%;
-//  }
 @media (min-width: $break-point-desktop) {
 .section_more-information {
-  background-position: 50% 50%;
+  background-image: url("#{$image-path}bg_friendly_user_interface.png");
+  background-position: calc(50% + 330px) 50%;
   background-repeat: no-repeat;
-  padding-block-start: $padding * 2;
-  padding-block-end: $padding * 2;
+  padding-block-start: 217px;
+  padding-block-end: 171px;
 }
 
 .use-interface__container {
   margin-inline-end: auto;
+  margin-inline-start: auto;
   max-width: $break-point-desktop;
 }
 
