@@ -113,6 +113,8 @@ img[alt="phones"] {
 .app-store_logo {
   width: 145.69px;
   height: 44px;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem; }
 
@@ -208,11 +210,10 @@ img[alt="phones"] {
   background-color: #FFFFFF;
   text-align: center;
   padding-block-start: 2rem;
-  padding-block-end: 2rem;
-  background-image: url("../img/bg_friendly_user_interface.png");
+  padding-block-end: 600px;
+  background-image: url("../img/bg_friendly_user_interface-small.png");
   background-repeat: no-repeat;
-  background-position: 50% 20%;
-  min-height: 1100px; }
+  background-position: 50% 100%; }
 
 .section_more-information a {
   color: #00ADEE; }
@@ -225,6 +226,20 @@ img[alt="phones"] {
 
 .phone-image {
   max-width: 100%; }
+
+@media (min-width: 1114px) {
+  .section_more-information {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-block-start: 4rem;
+    padding-block-end: 4rem; }
+  .use-interface__container {
+    margin-inline-end: auto;
+    max-width: 1114px; }
+  .user-interface {
+    align-items: self-start;
+    max-width: 547px;
+    margin: 0; } }
 
 .section_feature {
   background-color: #F4F6F9;
