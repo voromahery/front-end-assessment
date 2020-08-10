@@ -318,7 +318,11 @@ img[alt="phones"] {
   padding-block-end: 1rem; }
 
 .feature-partenaire__list-item {
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
+
+.feature-partenaire__list-item a {
+  margin: auto; }
 
 .feature-partenaire__list-item:nth-of-type(1),
 .feature-partenaire__list-item:nth-of-type(2) {
@@ -345,6 +349,9 @@ footer {
   margin: 0;
   margin-inline-end: auto;
   margin-inline-start: auto; }
+
+footer a {
+  margin: auto; }
 
 .a11y_link {
   color: #FFFFFF; }
