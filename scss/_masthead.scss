@@ -3,6 +3,8 @@
 .masthead {
     display: flex;
     background-color: $common-background-color;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
   }
 
   .masthead__container {

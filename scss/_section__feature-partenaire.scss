@@ -12,6 +12,38 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding-block-start: $padding / 2;
   padding-block-end: $padding / 2;
+}
+
+.feature-partenaire__list-item {
+  text-align: center;
+}
+
+.feature-partenaire__list-item:nth-of-type(1),
+.feature-partenaire__list-item:nth-of-type(2) {
+  flex-basis: 50%;
+}
+
+.feature-partenaire__list-item:nth-of-type(3),
+.feature-partenaire__list-item:nth-of-type(4),
+.feature-partenaire__list-item:nth-of-type(5) {
+  flex-basis: calc(100% / 3);
+}
+
+.feature-partenaire__list-item:nth-of-type(6) {
+  flex-basis: 100%;
+}
+
+@media (min-width: $break-point-desktop) {
+  .feature-partenaire__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .feature-partenaire__list ul {
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+  }
 }
