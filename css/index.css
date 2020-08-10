@@ -229,7 +229,7 @@ img[alt="phones"] {
 .pictures,
 .update-leagues {
   background-position: left 0;
-  background-size: 2.5rem;
+  background-size: 40px;
   background-repeat: no-repeat; }
 
 .section_more-information {
@@ -265,7 +265,7 @@ img[alt="phones"] {
     margin-inline-start: auto;
     max-width: 1114px; }
   .user-interface {
-    align-items: self-start;
+    text-align: start;
     max-width: 547px;
     margin: 0; } }
 
@@ -287,6 +287,9 @@ img[alt="phones"] {
 
 @media (min-width: 1114px) {
   .section_feature {
+    background-image: url("../img/background_blue_rectangles.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #00ADEE;
     color: #FFFFFF;
     padding-block-start: 76px;
@@ -299,6 +302,9 @@ img[alt="phones"] {
     grid-gap: 90px;
     text-align: start;
     list-style: inside; }
+  .feature_article_heading {
+    margin-block-start: 76px;
+    margin-block-end: 54px; }
   .feature_article_heading,
   .feature_article__list-item a {
     color: #FFFFFF; } }
