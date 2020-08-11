@@ -6,9 +6,14 @@ footer {
   margin: 0;
   margin-inline-end: auto;
   margin-inline-start: auto;
+  padding-inline-start: 19px;
+  padding-inline-end: 19px;
+  padding-block-start: 41px;
+  padding-block-end: 45px;
 }
 
-footer a {
+.sports-logo_icon,
+.social_media-link {
   margin: auto;
 }
 
@@ -19,6 +24,10 @@ footer a {
 .social-media_list,
 .a11y_list {
   display: flex;
+}
+
+.a11y_list {
+  justify-content: space-between;
 }
 
 .social-media_list > li,
