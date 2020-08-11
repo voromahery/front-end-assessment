@@ -400,3 +400,17 @@ footer .sports-logo_icon,
 
 .icon_instagram {
   background-image: url("../img/icon_instagram.svg"); }
+
+@media (min-width: 1114px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block-start: 47px;
+    padding-block-end: 48px; }
+  footer .sports-logo {
+    width: 84px; }
+  .a11y_list {
+    order: 2; }
+  .social-media_list {
+    order: 3; } }
