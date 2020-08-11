@@ -10,11 +10,19 @@
   .masthead__section {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
     padding-block-start: 30px;
     padding-block-end: 59px;
   }
+
+.masthead__section--link {
+  background-image: url("#{$icon-path}logo_sports_colour.svg");
+  @include icon-property;
+  width: 186px;
+  height: 70px;
+  background-size: contain;
+  margin: auto;
+}
 
   img[alt="phones"] {
     display: none;
@@ -32,9 +40,27 @@
   }
 
   .masthead__section--list {
-    padding: 0;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
   }
+
+.link_app-store {
+  background-image: url("#{$icon-path}apple_store.svg");
+  @include icon-property;
+}
+.link_google-play,
+.link_app-store {
+  width: 145px;
+  background-size: contain;
+  margin: auto;
+}
+
+.link_google-play {
+  background-image: url("#{$icon-path}google_play.svg");
+  @include icon-property;
+}
 
 @media (min-width: $break-point-desktop) {
   .masthead {
@@ -43,6 +69,11 @@
     background-repeat: no-repeat;
     padding-block-start: $padding * 2;
     padding-block-end: $padding * 2;
+  }
+
+  .masthead__section--link {
+    width: 92px;
+    height: 32px;
   }
 
   .masthead__container {

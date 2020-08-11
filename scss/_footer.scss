@@ -28,6 +28,7 @@ footer {
 
 .a11y_list {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-media_list > li,
@@ -89,10 +90,4 @@ footer .sports-logo_icon,
   .social-media_list {
     order: 3;
   }
-  // .footer_link {
-  //   display: flex;
-  //   flex-direction: row-reverse;
-  //   align-items: center;
-  //   justify-content: space-between;
-  // }
 }
