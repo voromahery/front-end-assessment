@@ -4,8 +4,8 @@
 .section__feature-partenaire {
   background-color: $common-background-color;
   margin: 0;
-  padding-block-start: $padding;
-  padding-block-end: $padding;
+  padding-block-start: 42px;
+  padding-block-end: 58px;
 }
 
 .feature-partenaire__list ul {
@@ -13,8 +13,6 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding-block-start: $padding / 2;
-  padding-block-end: $padding / 2;
 }
 
 .feature-partenaire__list-item {
@@ -46,6 +44,11 @@
   .feature-partenaire__list {
     display: flex;
     justify-content: space-around;
+  }
+
+  .section__feature-partenaire {
+    padding-block-start: 57px;
+    padding-block-end: 68px;
   }
 
   .feature-partenaire__list ul {

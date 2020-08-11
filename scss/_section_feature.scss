@@ -26,7 +26,8 @@
   .section_feature {
     background-image: url("#{$image-path}background_blue_rectangles.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-x: left;
     background-color: $sky-blue;
     color: #FFFFFF;
     padding-block-start: 76px;
@@ -44,7 +45,6 @@
   }
 
   .feature_article_heading {
-    margin-block-start: 76px;
     margin-block-end: 54px;
   }
 

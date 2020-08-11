@@ -24,27 +24,24 @@
   margin: auto;
 }
 
-  img[alt="phones"] {
-    display: none;
-  }
+.masthead__section--header {
+  color: $color-heading;
+  text-align: center;
+}
 
-  .masthead__section--header {
-    color: $color-heading;
-    text-align: center;
-  }
+.masthead__section--paragraph {
+  color: $color-header-section;
+  font-weight: 400;
+  text-align: center;
+}
 
-  .masthead__section--paragraph {
-    color: $color-header-section;
-    font-weight: 400;
-    text-align: center;
-  }
-
-  .masthead__section--list {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 0;
-  }
+.masthead__section--list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-block-start: 50px;
+}
 
 .link_app-store {
   background-image: url("#{$icon-path}apple_store.svg");
@@ -64,11 +61,12 @@
 
 @media (min-width: $break-point-desktop) {
   .masthead {
+    display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px) 100%;
     background-repeat: no-repeat;
-    padding-block-start: $padding * 2;
-    padding-block-end: $padding * 2;
+    padding-block-start: 61px;
+    padding-block-end: 164px;
   }
 
   .masthead__section--link {
@@ -85,6 +83,8 @@
   .masthead__section {
     align-items: self-start;
     max-width: 547px;
+    margin: 0;
+    padding: 0;
   }
 
   .masthead__section--header {
@@ -103,15 +103,12 @@
     display: flex;
   }
 
-  .masthead__section--list,
-  .masthead__section--header
-   {
-    padding-block-start: $padding;
-    padding-block-end: $padding;
+  .item-list_app-store {
+    padding-inline-end: calc(35px / 2);
   }
 
-  img[alt="phones"] {
-    display: block;
-}
+  .item-list_google-play {
+    padding-inline-start: calc(35px / 2);
+  }
 
 }

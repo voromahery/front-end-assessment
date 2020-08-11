@@ -5,7 +5,6 @@
     margin-inline-start: $margin;
     margin-inline-end: $margin;
     margin: auto;
-    line-height: 48px;
     text-align: center;
     font-size: 18px;
   }
@@ -19,11 +18,15 @@
     color: $color-heading;
   }
 
-  h3 {
-    margin: 0;
-    padding-block-start: $padding;
-    padding-block-end: $padding;
+  p {
+    line-height: 23px;
   }
+
+  a,
+  h2 {
+    line-height: 48px;
+  }
+
 
   a {
     text-decoration: none;
@@ -31,6 +34,6 @@
 
   @media (min-width: $break-point-desktop) {
   body {
-    margin: auto;
+      margin: auto;
     }
   }

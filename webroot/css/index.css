@@ -17,7 +17,6 @@ body {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   margin: auto;
-  line-height: 48px;
   text-align: center;
   font-size: 18px; }
 
@@ -30,10 +29,12 @@ h2 {
   font-size: 32px;
   color: #333333; }
 
-h3 {
-  margin: 0;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem; }
+p {
+  line-height: 23px; }
+
+a,
+h2 {
+  line-height: 48px; }
 
 a {
   text-decoration: none; }
@@ -65,9 +66,6 @@ a {
   background-size: contain;
   margin: auto; }
 
-img[alt="phones"] {
-  display: none; }
-
 .masthead__section--header {
   color: #333333;
   text-align: center; }
@@ -81,7 +79,8 @@ img[alt="phones"] {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 0; }
+  padding: 0;
+  margin-block-start: 50px; }
 
 .link_app-store {
   background-image: url("../img/apple_store.svg");
@@ -103,11 +102,12 @@ img[alt="phones"] {
 
 @media (min-width: 1114px) {
   .masthead {
+    display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px) 100%;
     background-repeat: no-repeat;
-    padding-block-start: 4rem;
-    padding-block-end: 4rem; }
+    padding-block-start: 61px;
+    padding-block-end: 164px; }
   .masthead__section--link {
     width: 92px;
     height: 32px; }
@@ -117,7 +117,9 @@ img[alt="phones"] {
     max-width: 1114px; }
   .masthead__section {
     align-items: self-start;
-    max-width: 547px; }
+    max-width: 547px;
+    margin: 0;
+    padding: 0; }
   .masthead__section--header {
     font-size: 36px;
     text-align: start; }
@@ -128,16 +130,10 @@ img[alt="phones"] {
   .masthead__section--list {
     padding: 0;
     display: flex; }
-  .masthead__section--list,
-  .masthead__section--header {
-    padding-block-start: 2rem;
-    padding-block-end: 2rem; }
-  img[alt="phones"] {
-    display: block; } }
-
-.masthead__section--link-homepage_logo {
-  width: 186px;
-  height: 70px; }
+  .item-list_app-store {
+    padding-inline-end: calc(35px / 2); }
+  .item-list_google-play {
+    padding-inline-start: calc(35px / 2); } }
 
 .google-play_logo,
 .app-store_logo {
@@ -317,7 +313,8 @@ img[alt="phones"] {
   .section_feature {
     background-image: url("../img/background_blue_rectangles.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-x: left;
     background-color: #00ADEE;
     color: #FFFFFF;
     padding-block-start: 76px;
@@ -331,7 +328,6 @@ img[alt="phones"] {
     text-align: start;
     list-style: inside; }
   .feature_article_heading {
-    margin-block-start: 76px;
     margin-block-end: 54px; }
   .feature_article_heading,
   .feature_article__list-item a {
@@ -340,16 +336,14 @@ img[alt="phones"] {
 .section__feature-partenaire {
   background-color: #F4F6F9;
   margin: 0;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem; }
+  padding-block-start: 42px;
+  padding-block-end: 58px; }
 
 .feature-partenaire__list ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem; }
+  flex-wrap: wrap; }
 
 .feature-partenaire__list-item {
   text-align: center;
@@ -374,6 +368,9 @@ img[alt="phones"] {
   .feature-partenaire__list {
     display: flex;
     justify-content: space-around; }
+  .section__feature-partenaire {
+    padding-block-start: 57px;
+    padding-block-end: 68px; }
   .feature-partenaire__list ul {
     flex-wrap: nowrap;
     flex-basis: 100%; } }
