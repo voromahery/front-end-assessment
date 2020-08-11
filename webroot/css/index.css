@@ -261,7 +261,7 @@ img[alt="phones"] {
 .section_more-information {
   background-color: #FFFFFF;
   text-align: center;
-  padding-block-start: 2rem;
+  padding-block-start: 55px;
   padding-block-end: 600px;
   background-image: url("../img/bg_friendly_user_interface-small.png");
   background-repeat: no-repeat;
@@ -297,6 +297,8 @@ img[alt="phones"] {
 
 .section_feature {
   background-color: #F4F6F9;
+  padding-block-start: 45px;
+  padding-block-end: 58px;
   margin-inline-end: auto;
   margin-inline-start: auto; }
 
