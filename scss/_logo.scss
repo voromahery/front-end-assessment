@@ -3,14 +3,21 @@
 
 // Header icon.
 
+  .link_app-store {
+    background-image: url("#{$icon-path}apple_store.svg");
+    @include icon-property;
+  }
 
-  .google-play_logo,
-  .app-store_logo {
-    width:145.69px;
-    height: 44px;
-    padding-block-start: 50px;
-    padding-inline-start: $padding / 2;
-    padding-inline-end: $padding / 2;
+  .link_google-play,
+  .link_app-store {
+    width: 145px;
+    background-size: contain;
+    margin: auto;
+  }
+
+  .link_google-play {
+    background-image: url("#{$icon-path}google_play.svg");
+    @include icon-property;
   }
 
 // Feature icon
@@ -100,6 +107,45 @@
   background-size: contain;
   @include icon-property;
 }
+
+
+// Footer icon
+
+.sports-logo {
+  margin: 0;
+}
+
+footer .sports-logo_icon {
+  background-image: url("#{$icon-path}logo_sports_white.svg");
+}
+
+footer .sports-logo_icon,
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  @include icon-property;
+}
+
+.icon_twitter,
+.icon_facebook,
+.icon_instagram {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon_twitter {
+  background-image: url("#{$icon-path}icon_twitter.svg");
+ }
+
+.icon_facebook {
+  background-image: url("#{$icon-path}icon_facebook.svg");
+ }
+
+.icon_instagram {
+  background-image: url("#{$icon-path}icon_instagram.svg");
+ }
+
+
 
 @media (min-width: $break-point-desktop) {
   .masthead__section--link-homepage_logo {

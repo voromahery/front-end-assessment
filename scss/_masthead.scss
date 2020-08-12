@@ -43,22 +43,6 @@
   margin-block-start: 50px;
 }
 
-.link_app-store {
-  background-image: url("#{$icon-path}apple_store.svg");
-  @include icon-property;
-}
-.link_google-play,
-.link_app-store {
-  width: 145px;
-  background-size: contain;
-  margin: auto;
-}
-
-.link_google-play {
-  background-image: url("#{$icon-path}google_play.svg");
-  @include icon-property;
-}
-
 @media (min-width: $break-point-desktop) {
   .masthead {
     display: block;

@@ -36,40 +36,6 @@ footer {
   padding: $padding / 4;
  }
 
-.sports-logo {
-  margin: 0;
-}
-
-footer .sports-logo_icon {
-  background-image: url("#{$icon-path}logo_sports_white.svg");
-}
-
-footer .sports-logo_icon,
-.icon_twitter,
-.icon_facebook,
-.icon_instagram {
-  @include icon-property;
-}
-
-.icon_twitter,
-.icon_facebook,
-.icon_instagram {
-  width: 2rem;
-  height: 2rem;
-}
-
-.icon_twitter {
-  background-image: url("#{$icon-path}icon_twitter.svg");
- }
-
-.icon_facebook {
-  background-image: url("#{$icon-path}icon_facebook.svg");
- }
-
-.icon_instagram {
-  background-image: url("#{$icon-path}icon_instagram.svg");
- }
-
  @media (min-width: $break-point-desktop) {
   footer {
     display: flex;

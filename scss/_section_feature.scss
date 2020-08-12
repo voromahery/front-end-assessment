@@ -22,6 +22,7 @@
 .feature_article__list-item a {
   color: $color-header-section;
 }
+
 @media (min-width: $break-point-desktop) {
   .section_feature {
     background-image: url("#{$image-path}background_blue_rectangles.svg");
