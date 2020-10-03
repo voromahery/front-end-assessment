@@ -41,7 +41,12 @@ a {
 
 @media (min-width: 1114px) {
   body {
-    margin: auto; } }
+    margin: auto; }
+  .feature-container,
+  .feature__partenaire-container,
+  .footer-container {
+    margin: auto;
+    max-width: 1440px; } }
 
 .masthead {
   display: flex;

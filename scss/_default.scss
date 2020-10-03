@@ -27,7 +27,6 @@
     line-height: 48px;
   }
 
-
   a {
     text-decoration: none;
   }
@@ -36,4 +35,11 @@
   body {
       margin: auto;
     }
+
+  .feature-container,
+  .feature__partenaire-container,
+  .footer-container {
+    margin: auto;
+    max-width: 1440px;
+  }
   }
