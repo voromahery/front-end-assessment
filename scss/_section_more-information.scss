@@ -6,8 +6,8 @@ $phone-mockup-height: 600px;
 .section_more-information {
     background-color: #FFFFFF;
     text-align: center;
-    padding-block-start: 55px;
-    padding-block-end: $phone-mockup-height;
+    padding-top: 55px;
+    padding-bottom: $phone-mockup-height;
     background-image: url("#{$image-path}bg_friendly_user_interface-small.png");
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -37,13 +37,13 @@ $phone-mockup-height: 600px;
   background-image: url("#{$image-path}bg_friendly_user_interface.png");
   background-position: calc(50% + 330px) 50%;
   background-repeat: no-repeat;
-  padding-block-start: 217px;
-  padding-block-end: 171px;
+  padding-top: 217px;
+  padding-bottom: 171px;
 }
 
 .use-interface__container {
-  margin-inline-end: auto;
-  margin-inline-start: auto;
+  margin-right: auto;
+  margin-left: auto;
   max-width: $break-point-desktop;
 }
 

@@ -3,10 +3,10 @@
 
 .section_feature {
   background-color: $common-background-color;
-  padding-block-start: 45px;
-  padding-block-end: 58px;
-  margin-inline-end: auto;
-  margin-inline-start: auto;
+  padding-top: 45px;
+  padding-bottom: 58px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .feature_article_heading {
@@ -15,8 +15,8 @@
 
 .feature_article__list-item {
   margin: 0;
-  padding-block-start: ($padding * 6) / 4;
-  padding-block-end: $padding;
+  padding-top: ($padding * 6) / 4;
+  padding-bottom: $padding;
 }
 
 .feature_article__list-item a {
@@ -31,10 +31,10 @@
     background-position-x: left;
     background-color: $sky-blue;
     color: #FFFFFF;
-    padding-block-start: 76px;
-    padding-block-end: 67px;
-    padding-inline-start: 166px;
-    padding-inline-end: 164px;
+    padding-top: 76px;
+    padding-bottom: 67px;
+    padding-left: 166px;
+    padding-right: 164px;
   }
 
   .feature_article__list {
@@ -46,7 +46,7 @@
   }
 
   .feature_article_heading {
-    margin-block-end: 54px;
+    margin-bottom: 54px;
   }
 
   .feature_article_heading,
