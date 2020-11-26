@@ -327,8 +327,8 @@ footer .sports-logo_icon,
 .section_more-information {
   background-color: #FFFFFF;
   text-align: center;
-  padding-block-start: 55px;
-  padding-block-end: 600px;
+  padding-top: 55px;
+  padding-bottom: 600px;
   background-image: url("../img/bg_friendly_user_interface-small.png");
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -352,11 +352,11 @@ footer .sports-logo_icon,
     background-image: url("../img/bg_friendly_user_interface.png");
     background-position: calc(50% + 330px) 50%;
     background-repeat: no-repeat;
-    padding-block-start: 217px;
-    padding-block-end: 171px; }
+    padding-top: 217px;
+    padding-bottom: 171px; }
   .use-interface__container {
-    margin-inline-end: auto;
-    margin-inline-start: auto;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 1114px; }
   .user-interface {
     text-align: start;
@@ -365,18 +365,18 @@ footer .sports-logo_icon,
 
 .section_feature {
   background-color: #F4F6F9;
-  padding-block-start: 45px;
-  padding-block-end: 58px;
-  margin-inline-end: auto;
-  margin-inline-start: auto; }
+  padding-top: 45px;
+  padding-bottom: 58px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .feature_article_heading {
   color: #333333; }
 
 .feature_article__list-item {
   margin: 0;
-  padding-block-start: 3rem;
-  padding-block-end: 2rem; }
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
 
 .feature_article__list-item a {
   color: #4F4F4F; }
@@ -389,10 +389,10 @@ footer .sports-logo_icon,
     background-position-x: left;
     background-color: #00ADEE;
     color: #FFFFFF;
-    padding-block-start: 76px;
-    padding-block-end: 67px;
-    padding-inline-start: 166px;
-    padding-inline-end: 164px; }
+    padding-top: 76px;
+    padding-bottom: 67px;
+    padding-left: 166px;
+    padding-right: 164px; }
   .feature_article__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -400,7 +400,7 @@ footer .sports-logo_icon,
     text-align: start;
     list-style: inside; }
   .feature_article_heading {
-    margin-block-end: 54px; }
+    margin-bottom: 54px; }
   .feature_article_heading,
   .feature_article__list-item a {
     color: #FFFFFF; } }
@@ -408,8 +408,8 @@ footer .sports-logo_icon,
 .section__feature-partenaire {
   background-color: #F4F6F9;
   margin: 0;
-  padding-block-start: 42px;
-  padding-block-end: 58px; }
+  padding-top: 42px;
+  padding-bottom: 58px; }
 
 .feature-partenaire__list ul {
   display: flex;
@@ -441,8 +441,8 @@ footer .sports-logo_icon,
     display: flex;
     justify-content: space-around; }
   .section__feature-partenaire {
-    padding-block-start: 57px;
-    padding-block-end: 68px; }
+    padding-top: 57px;
+    padding-bottom: 68px; }
   .feature-partenaire__list ul {
     flex-wrap: nowrap;
     flex-basis: 100%; } }
