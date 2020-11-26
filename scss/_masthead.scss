@@ -1,24 +1,25 @@
 @import "./variable.scss";
 
 .masthead {
-    display: flex;
-    background-color: $common-background-color;
-    padding-inline-end: 20px;
-    padding-inline-start: 20px;
-  }
+  display: flex;
+  background-color: $common-background-color;
+  place-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  .masthead__section {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-block-start: 30px;
-    padding-block-end: 59px;
-  }
+.masthead__section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 59px;
+}
 
 .masthead__section--link {
   background-image: url("#{$icon-path}logo_sports_colour.svg");
   @include icon-property;
-  width: 186px;
+  width: calc(186px / 2);
   height: 70px;
   background-size: contain;
   margin: auto;
@@ -43,14 +44,25 @@
   margin-block-start: 50px;
 }
 
+@media (min-width: 300px) {
+  .masthead {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .masthead__section--link {
+    width: 186px;
+  }
+}
+
 @media (min-width: $break-point-desktop) {
   .masthead {
     display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px) 100%;
     background-repeat: no-repeat;
-    padding-block-start: 61px;
-    padding-block-end: 164px;
+    padding-top: 61px;
+    padding-bottom: 164px;
   }
 
   .masthead__section--link {
@@ -59,8 +71,8 @@
   }
 
   .masthead__container {
-    margin-inline-end: auto;
-    margin-inline-start: auto;
+    margin-right: auto;
+    margin-left: auto;
     max-width: $break-point-desktop;
   }
 
@@ -94,5 +106,4 @@
   .item-list_google-play {
     padding-inline-start: calc(35px / 2);
   }
-
 }

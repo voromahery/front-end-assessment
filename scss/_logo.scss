@@ -3,22 +3,22 @@
 
 // Header icon.
 
-  .link_app-store {
-    background-image: url("#{$icon-path}apple_store.svg");
-    @include icon-property;
-  }
+.link_app-store {
+  background-image: url("#{$icon-path}apple_store.svg");
+  @include icon-property;
+}
 
-  .link_google-play,
-  .link_app-store {
-    width: 145px;
-    background-size: contain;
-    margin: auto;
-  }
+.link_google-play,
+.link_app-store {
+  width: calc(145px / 2);
+  background-size: contain;
+  margin: auto;
+}
 
-  .link_google-play {
-    background-image: url("#{$icon-path}google_play.svg");
-    @include icon-property;
-  }
+.link_google-play {
+  background-image: url("#{$icon-path}google_play.svg");
+  @include icon-property;
+}
 
 // Feature icon
 .feature_article__list-item-notification {
@@ -42,7 +42,7 @@
 }
 
 .pictures {
- background-image: url("#{$icon-path}icon_tent_blue.svg");
+  background-image: url("#{$icon-path}icon_tent_blue.svg");
 }
 
 .update-leagues {
@@ -61,40 +61,40 @@
 // Feature partenaire icon
 .sport-tv_icon {
   background-image: url("#{$icon-path}logo_sports_tv.svg");
-  width: 149px;
-  height: 52px;
+  width: calc(149px / 2);
+  height: calc(52px / 2);
 }
 
 .sports-black_icon {
   grid-row: 1;
   grid-column: 2;
   background-image: url("#{$icon-path}logo_sports_channel.svg");
-  width: 102px;
-  height: 32px;
+  width: calc(102px / 2);
+  height: calc(32px / 2);
 }
 
 .nbc-sports_icon {
   background-image: url("#{$icon-path}logo_nbc_sports.svg");
-  width: 69px;
-  height: 58px;
+  width: calc(69px / 2);
+  height: calc(58px / 2);
 }
 
 .designer-technology_icon {
   background-image: url("#{$icon-path}logo_designer_technology.svg");
-  width: 110px;
-  height: 32px;
+  width: calc(110px / 2);
+  height: calc(32px / 2);
 }
 
 .logo_designer_new_icon {
   background-image: url("#{$icon-path}logo_designer_news.svg");
-  width: 48px;
-  height: 48px;
+  width: calc(48px / 2);
+  height: calc(48px / 2);
 }
 
 .sky-sports_icon {
   background-image: url("#{$icon-path}logo_sky_sports.svg");
-  width: 210px;
-  height: 34px;
+  width: calc(210px / 2);
+  height: calc(34px / 2);
 }
 
 .sport-tv_icon,
@@ -106,7 +106,6 @@
   background-size: contain;
   @include icon-property;
 }
-
 
 // Footer icon
 
@@ -134,17 +133,54 @@ footer .sports-logo_icon,
 
 .icon_twitter {
   background-image: url("#{$icon-path}icon_twitter.svg");
- }
+}
 
 .icon_facebook {
   background-image: url("#{$icon-path}icon_facebook.svg");
- }
+}
 
 .icon_instagram {
   background-image: url("#{$icon-path}icon_instagram.svg");
- }
+}
 
+@media (min-width: 300px) {
+  .link_google-play,
+  .link_app-store {
+    width: 145px;
+    margin: auto;
+  }
 
+  // Feature partenaire icon
+  .sport-tv_icon {
+    width: 149px;
+    height: 52px;
+  }
+
+  .sports-black_icon {
+    width: 102px;
+    height: 32px;
+  }
+
+  .nbc-sports_icon {
+    width: 69px;
+    height: 58px;
+  }
+
+  .designer-technology_icon {
+    width: 110px;
+    height: 32px;
+  }
+
+  .logo_designer_new_icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .sky-sports_icon {
+    width: 210px;
+    height: 34px;
+  }
+}
 
 @media (min-width: $break-point-desktop) {
   .masthead__section--link-homepage_logo {
@@ -167,44 +203,43 @@ footer .sports-logo_icon,
     padding-inline-start: 0;
   }
 
-// Feature icon
-.feature_article__list-item-notification {
-  position: relative;
-}
+  // Feature icon
+  .feature_article__list-item-notification {
+    position: relative;
+  }
 
-.notifications {
-  background-image: url("#{$icon-path}icon_bell_ringing_white.svg");
-}
+  .notifications {
+    background-image: url("#{$icon-path}icon_bell_ringing_white.svg");
+  }
 
+  .all-videos {
+    background-image: url("#{$icon-path}icon_video_white.svg");
+  }
 
-.all-videos {
-  background-image: url("#{$icon-path}icon_video_white.svg");
-}
+  .new-videos {
+    background-image: url("#{$icon-path}icon_hd_white.svg");
+  }
 
-.new-videos {
-  background-image: url("#{$icon-path}icon_hd_white.svg");
-}
+  .pages {
+    background-image: url("#{$icon-path}icon_flag_white.svg");
+  }
 
-.pages {
-  background-image: url("#{$icon-path}icon_flag_white.svg");
-}
+  .pictures {
+    background-image: url("#{$icon-path}icon_tent_white.svg");
+  }
 
-.pictures {
- background-image: url("#{$icon-path}icon_tent_white.svg");
-}
+  .update-leagues {
+    background-image: url("#{$icon-path}icon_graph_white.svg");
+  }
 
-.update-leagues {
-  background-image: url("#{$icon-path}icon_graph_white.svg");
-}
-
-.notifications,
-.all-videos,
-.new-videos,
-.pages,
-.pictures,
-.update-leagues {
-  background-position: left 0;
-  background-size: 40px;
-  background-repeat: no-repeat;
+  .notifications,
+  .all-videos,
+  .new-videos,
+  .pages,
+  .pictures,
+  .update-leagues {
+    background-position: left 0;
+    background-size: 40px;
+    background-repeat: no-repeat;
   }
 }

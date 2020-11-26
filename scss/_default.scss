@@ -1,21 +1,48 @@
 @import "variable";
 @import "mixin";
-  body {
-    font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
-    margin-inline-start: $margin;
-    margin-inline-end: $margin;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
-  }
+body {
+  font-family: "Latodaniel", Arial, Helvetica, sans-serif;
+  margin-left: $margin;
+  margin-right: $margin;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  max-width: 1440px;
+  // padding-inline-end: 10px;
+  // padding-inline-start: 10px;
+}
 
-  ul {
-    @include reset-list;
+ul {
+  @include reset-list;
+}
+
+h2 {
+  font-size: 24px;
+  color: $color-heading;
+}
+
+p {
+  line-height: 20px;
+}
+
+a,
+h2 {
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 300px) {
+  body {
+    font-size: 18px;
+    // padding-inline-end: 20px;
+    // padding-inline-start: 20px;
   }
 
   h2 {
     font-size: 32px;
-    color: $color-heading;
   }
 
   p {
@@ -26,15 +53,12 @@
   h2 {
     line-height: 48px;
   }
+}
 
-  a {
-    text-decoration: none;
-  }
-
-  @media (min-width: $break-point-desktop) {
+@media (min-width: $break-point-desktop) {
   body {
-      margin: auto;
-    }
+    margin: auto;
+  }
 
   .feature-container,
   .feature__partenaire-container,
@@ -42,4 +66,4 @@
     margin: auto;
     max-width: 1440px;
   }
-  }
+}

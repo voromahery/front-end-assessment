@@ -13,12 +13,13 @@
   font-weight: 700; }
 
 body {
-  font-family: 'Latodaniel', Arial, Helvetica, sans-serif;
-  margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
+  font-family: "Latodaniel", Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin: auto;
   text-align: center;
-  font-size: 18px; }
+  font-size: 14px;
+  max-width: 1440px; }
 
 ul {
   list-style: none;
@@ -26,18 +27,29 @@ ul {
   padding: 0; }
 
 h2 {
-  font-size: 32px;
+  font-size: 24px;
   color: #333333; }
 
 p {
-  line-height: 23px; }
+  line-height: 20px; }
 
 a,
 h2 {
-  line-height: 48px; }
+  line-height: 30px; }
 
 a {
   text-decoration: none; }
+
+@media (min-width: 300px) {
+  body {
+    font-size: 18px; }
+  h2 {
+    font-size: 32px; }
+  p {
+    line-height: 23px; }
+  a,
+  h2 {
+    line-height: 48px; } }
 
 @media (min-width: 1114px) {
   body {
@@ -51,22 +63,23 @@ a {
 .masthead {
   display: flex;
   background-color: #F4F6F9;
-  padding-inline-end: 20px;
-  padding-inline-start: 20px; }
+  place-content: center;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .masthead__section {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-block-start: 30px;
-  padding-block-end: 59px; }
+  padding-top: 30px;
+  padding-bottom: 59px; }
 
 .masthead__section--link {
   background-image: url("../img/logo_sports_colour.svg");
   background-repeat: no-repeat;
   display: block;
   text-indent: -9999px;
-  width: 186px;
+  width: calc(186px / 2);
   height: 70px;
   background-size: contain;
   margin: auto; }
@@ -87,20 +100,27 @@ a {
   padding: 0;
   margin-block-start: 50px; }
 
+@media (min-width: 300px) {
+  .masthead {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .masthead__section--link {
+    width: 186px; } }
+
 @media (min-width: 1114px) {
   .masthead {
     display: block;
     background-image: url("../img/bg_header.png");
     background-position: calc(50vw - 11px) 100%;
     background-repeat: no-repeat;
-    padding-block-start: 61px;
-    padding-block-end: 164px; }
+    padding-top: 61px;
+    padding-bottom: 164px; }
   .masthead__section--link {
     width: 92px;
     height: 32px; }
   .masthead__container {
-    margin-inline-end: auto;
-    margin-inline-start: auto;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 1114px; }
   .masthead__section {
     align-items: self-start;
@@ -130,7 +150,7 @@ a {
 
 .link_google-play,
 .link_app-store {
-  width: 145px;
+  width: calc(145px / 2);
   background-size: contain;
   margin: auto; }
 
@@ -173,35 +193,35 @@ a {
 
 .sport-tv_icon {
   background-image: url("../img/logo_sports_tv.svg");
-  width: 149px;
-  height: 52px; }
+  width: calc(149px / 2);
+  height: calc(52px / 2); }
 
 .sports-black_icon {
   grid-row: 1;
   grid-column: 2;
   background-image: url("../img/logo_sports_channel.svg");
-  width: 102px;
-  height: 32px; }
+  width: calc(102px / 2);
+  height: calc(32px / 2); }
 
 .nbc-sports_icon {
   background-image: url("../img/logo_nbc_sports.svg");
-  width: 69px;
-  height: 58px; }
+  width: calc(69px / 2);
+  height: calc(58px / 2); }
 
 .designer-technology_icon {
   background-image: url("../img/logo_designer_technology.svg");
-  width: 110px;
-  height: 32px; }
+  width: calc(110px / 2);
+  height: calc(32px / 2); }
 
 .logo_designer_new_icon {
   background-image: url("../img/logo_designer_news.svg");
-  width: 48px;
-  height: 48px; }
+  width: calc(48px / 2);
+  height: calc(48px / 2); }
 
 .sky-sports_icon {
   background-image: url("../img/logo_sky_sports.svg");
-  width: 210px;
-  height: 34px; }
+  width: calc(210px / 2);
+  height: calc(34px / 2); }
 
 .sport-tv_icon,
 .sports-black_icon,
@@ -242,6 +262,30 @@ footer .sports-logo_icon,
 
 .icon_instagram {
   background-image: url("../img/icon_instagram.svg"); }
+
+@media (min-width: 300px) {
+  .link_google-play,
+  .link_app-store {
+    width: 145px;
+    margin: auto; }
+  .sport-tv_icon {
+    width: 149px;
+    height: 52px; }
+  .sports-black_icon {
+    width: 102px;
+    height: 32px; }
+  .nbc-sports_icon {
+    width: 69px;
+    height: 58px; }
+  .designer-technology_icon {
+    width: 110px;
+    height: 32px; }
+  .logo_designer_new_icon {
+    width: 48px;
+    height: 48px; }
+  .sky-sports_icon {
+    width: 210px;
+    height: 34px; } }
 
 @media (min-width: 1114px) {
   .masthead__section--link-homepage_logo {
@@ -287,7 +331,9 @@ footer .sports-logo_icon,
   padding-block-end: 600px;
   background-image: url("../img/bg_friendly_user_interface-small.png");
   background-repeat: no-repeat;
-  background-position: 50% 100%; }
+  background-position: 50% 100%;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .section_more-information a {
   color: #00ADEE; }
@@ -421,6 +467,9 @@ footer {
 .social-media_list,
 .a11y_list {
   display: flex; }
+
+.social-media_list {
+  flex-wrap: wrap; }
 
 .a11y_list {
   justify-content: space-between;

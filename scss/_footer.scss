@@ -26,6 +26,10 @@ footer {
   display: flex;
 }
 
+.social-media_list {
+  flex-wrap: wrap;
+}
+
 .a11y_list {
   justify-content: space-between;
   flex-wrap: wrap;
