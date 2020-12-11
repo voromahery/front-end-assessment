@@ -18,8 +18,7 @@ body {
   margin-right: 2rem;
   margin: auto;
   text-align: center;
-  font-size: 14px;
-  max-width: 1440px; }
+  font-size: 14px; }
 
 ul {
   list-style: none;
@@ -80,7 +79,6 @@ a {
   display: block;
   text-indent: -9999px;
   width: calc(186px / 2);
-  height: 70px;
   background-size: contain;
   margin: auto; }
 
@@ -116,8 +114,7 @@ a {
     padding-top: 61px;
     padding-bottom: 164px; }
   .masthead__section--link {
-    width: 92px;
-    height: 32px; }
+    width: 92px; }
   .masthead__container {
     margin-right: auto;
     margin-left: auto;
