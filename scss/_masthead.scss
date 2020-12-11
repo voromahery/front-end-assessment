@@ -37,8 +37,9 @@
 
 .masthead__section--list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: calc(28px / 2);
   padding: 0;
   margin-block-start: 50px;
 }
@@ -51,6 +52,10 @@
 
   .masthead__section--link {
     width: 186px;
+  }
+
+  .masthead__section--list {
+    gap: 28px;
   }
 }
 
@@ -95,13 +100,6 @@
   .masthead__section--list {
     padding: 0;
     display: flex;
-  }
-
-  .item-list_app-store {
-    padding-inline-end: calc(35px / 2);
-  }
-
-  .item-list_google-play {
-    padding-inline-start: calc(35px / 2);
+    gap: 35px;
   }
 }

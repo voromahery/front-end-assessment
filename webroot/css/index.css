@@ -93,8 +93,9 @@ a {
 
 .masthead__section--list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: calc(28px / 2);
   padding: 0;
   margin-block-start: 50px; }
 
@@ -103,7 +104,9 @@ a {
     padding-left: 20px;
     padding-right: 20px; }
   .masthead__section--link {
-    width: 186px; } }
+    width: 186px; }
+  .masthead__section--list {
+    gap: 28px; } }
 
 @media (min-width: 1114px) {
   .masthead {
@@ -133,11 +136,8 @@ a {
     text-align: start; }
   .masthead__section--list {
     padding: 0;
-    display: flex; }
-  .item-list_app-store {
-    padding-inline-end: calc(35px / 2); }
-  .item-list_google-play {
-    padding-inline-start: calc(35px / 2); } }
+    display: flex;
+    gap: 35px; } }
 
 .link_app-store {
   background-image: url("../img/apple_store.svg");
