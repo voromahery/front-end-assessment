@@ -106,7 +106,10 @@ a {
   .masthead__section--link {
     width: 186px; }
   .masthead__section--list {
-    gap: 28px; } }
+    gap: 28px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto; } }
 
 @media (min-width: 1114px) {
   .masthead {
